@@ -165,3 +165,52 @@ a.sign-in-btn:hover {
 /* <!-- Card section end. --> */
 
 
+/* <!-- icons  section start  --> */
+
+.icons-flex-container {
+  background-color: #fff4db;
+  margin-bottom: 30px;
+}
+
+h1.icons-header {
+  color: #F17228;
+  text-align: center;
+  padding: 40px;
+}
+
+.icons-text-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-main-logo p, h6 {
+  text-align: center;
+  justify-content: center;
+}
+
+.icons-main-logo h6{
+  color: #b68c1a;
+}
+.icons-main-logo img {
+  margin-left: 32px;
+}
+
+.icons-main-logo{
+  height: 255px;
+  width: 280px;
+  background-color: #faf6eb;
+  border: 2px solid rgb(226, 215, 215);
+  border-radius: 10px;
+  margin: 25px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.icons-main-logo:hover{
+  transform: scale(1.1);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+
+/* <!-- icons  section End  --> */
+
