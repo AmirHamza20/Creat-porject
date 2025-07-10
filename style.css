@@ -214,3 +214,59 @@ h1.icons-header {
 
 /* <!-- icons  section End  --> */
 
+/* <!-- popular items  section start  --> */
+
+
+.items-text-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+h1.items-header{
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.items-main-logo .items-pic{
+  height:220px;
+  width: 200px;
+}
+
+
+.items-main-logo{
+  border-radius: 10px;
+  margin: 20px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.items-main-logo p{
+  padding: 2px;
+}
+.items-main-logo p.location{
+  color: #FFB800;
+}
+
+.items-main-logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.items-main-logo a.btn{
+  margin: 0 auto;
+  background-color:#F17228;
+  padding: 2px 57.3px;
+  border-radius: 7px;
+}
+
+.items-main-logo:hover {
+  transform: translateY(-15px) scale(1.08);
+  box-shadow: 0 20px 40px rgba(0,0,0,2.3);
+}
+
+.items-main-logo a.btn:hover{
+  background-color: #f19d1e;
+}
+
