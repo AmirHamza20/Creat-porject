@@ -114,3 +114,54 @@ a.sign-in-btn:hover {
 
 /* <!-- Hero section end. --> */
 
+/* <!-- Card section start. --> */
+
+.card-flex-container {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 15px;
+  
+}
+
+.card-text-col {
+  height: 300px;
+  width: 356px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(17, 17, 17, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-text-col img {
+  height: 201px;
+  width: 256px;
+}
+.card-text-col p {
+  padding: 24px;
+  color: black;
+  padding-left: 3px;
+}
+.card-text-col a {
+  text-decoration: none;
+  background-color: #f3dfd3;
+  padding: 10px 8px;
+  color:#F17228;
+  border-radius: 9px;
+  font-size: 13px;
+}
+.card-text-col:hover {
+  transform: translateY(-15px) scale(1.08);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.card-text-col a:hover {
+  background-color: #F17228;
+  color: #fff;
+}
+
+/* <!-- Card section end. --> */
+
+
